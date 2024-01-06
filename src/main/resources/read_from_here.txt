@@ -1,0 +1,269 @@
+Make Model
+Year
+Engine
+Capacity
+Bore x Stroke
+Cooling System
+Compression Ratio
+Induction
+Ignition
+Alternator
+Spark Plug
+Starting
+Max Power
+Max Torque
+Clutch
+Transmission
+Final Drive
+Gear Ratio
+Gear Ratio Sport Version
+Rear Wheel Ratio
+Bevel / Crown wheel
+Frame
+Front Suspension
+Front Wheel Travel
+Rear Suspension
+Rear Wheel Travel
+Front Brakes
+Rear Brakes
+Front Wheel
+Rear Wheel
+Front Tyre
+Rear Tyre
+Dimensions
+Wheelbase
+Seat Height
+Ground Clearance
+Dry Weight
+Wet Weight
+Fuel Capacity
+Consumption Average
+Standing      ¼ Mile
+Top Speed
+Road Test
+Final     Drive
+Standing     ¼     Mile
+Lubrication
+Exhaust
+Battery
+Wheels
+Rim, Front
+Rim, rear
+Rake
+Castor
+Standing     ¼ Mile
+Braking 60 km/h - 0
+Braking 100 km/h - 0
+Motor
+Range
+Generator
+Total Gear Ratio
+ABS System
+Front Rim
+Rear Rim
+Trail
+Weight
+Charging
+Charging Time
+Emission
+Fuel
+Engine Control
+Primary Ratio
+Gear Ratios
+Secondary Ratio
+Steering Angle
+Permitted Total Weight
+Steering Head Angle
+Emission Control
+ABS
+Rim Front
+Rim Rear
+Inner Leg Curve
+GVWR
+Engine Management
+Engine control
+ABS / Pro
+Traction Control
+Cooling
+Reserve
+Intake / exhaust Ø
+Throttle valve diameter
+Emission control
+Transmission ratio
+Fuel Reserve
+Wheel Base
+Average Tank Distance
+Drive
+Tank Reserve
+Standing 0 - 100 km/h
+Standing 0 - 140 km/h
+Standing 0 - 200 km/h
+Acceleration 60-100 km/h
+Acceleration 60-140 km/h
+Acceleration 100-140 km/h
+Acceleration 140-180 km/h
+Final Drive Ratio
+Front WheelTravel
+Front RIM
+Riear Rim
+Standing 0 - 1000m
+Production
+Spark Plugs
+Tank Range
+Braking 60 - 0 / 100 - 0
+Acceleration 0 - 100mk/h / 62 mph
+Wheelbsase
+Intake x Outlet
+Headlight
+Front    Rim
+Charging System
+Power-to-weight ratio
+Front wheel
+Rear wheel
+Engine Oil
+Max Power Rear Wheel
+Average Consumption
+Braking 100 km/h / 62 mph - 0
+Standing 0 - 100 km/h / 62 mph
+Fuel consumption
+Acceleration 0 - 100 km/h / 62 mph
+Wet-Weight
+Max Power Rear Tyre
+Braking 60 km/h- 0
+Front Brake
+Intake Valve
+Outlet Valve
+Total Permitted Weight
+Transmission /     Drive
+Electrical system
+Wheel Castor
+Exhaust management
+Primary Drive Ratio
+Rims, front
+Rims, rear
+Dry-Weight
+Tank range
+Review
+Transmission Ratio
+Wheel castor
+Front wheel Travel
+Rear wheel Travel
+Fuel System
+Standing ¼ Mile
+Electrical System
+Reserve Tank
+Standing 0 - 100km
+Rim, Font
+Rim, Rear
+Wheel base
+Inside Leg Length
+Emissions
+Fuel Type
+Mixture Control
+ABS Pro
+Acceleration 0-100 km/h / 62 mph
+Fork Angle
+Font Wheel Travel
+Dry Weigh
+
+Oil Capacity
+Load Capacity (full tank)
+Braking 48 km/h / 30 mph - 0
+Braking 97 km/h / 60 mph - 0
+Acc: 0 - 48 km/h / 30 mph
+Acc: 0 - 97 km/h / 60 mph
+Acc: 0 - 145 km/h / 90 mph
+Acc: 0 - 161 km/h / 100 mph
+Top Gear Acc: 64 - 97 km/h / 40 - 60 mph
+Top Gear Acc: 97 - 129 km/h / 60 - 80 mph
+Standing 0 - 2000 km/h
+Headlamp
+Front Wheel ravel
+Cooling     System
+Standing 0 - 140km
+Standing 0 - 180km
+Standing           ¼ Mile
+Standing 0 - 150 km/h
+Braking 60km/h / 37 mph - 0
+Acceleration 60 - 100 km/h
+Acceleration 60 - 140 km/h
+Acceleration 100 - 140 km/h
+Acceleration 140 - 180 km/h
+Throttle
+Valve Intake / exhaust
+Standing 0 - 1000 m
+Mixture control
+Standing 0 - 100km/h
+Standing 0 - 140km/h
+Standing 0 - 200km/h
+Acceleration 60-100 / 100-140 / 140-180 km/h
+Ingnition
+Standing      ¼     Mile
+Bore x Sroke
+Transmission / Drive
+Rim, front
+Standing 0 - 200km
+Ignition /     Starting
+Dryt Weight
+Braking 60 - 0 / 100 - 0(mph: 37 - 0 / 62 - 0)
+Intake / Exhaust Ø
+Throttle Valve Diameter
+Ground clearance
+Valve/Accelerator Actuation
+Ø Intake/Outlet
+Primary Drive
+Standing 0-1000 m
+Acceleration 50-100 km/h
+Acceleration 50-140 km/h
+Standing 0 -100 km/h
+Standing 0 -150 km/h
+Standing 0 -200 km/h
+Rated Output
+Max. Output
+Max. Torque
+Battery Capacity (gross)
+Battery Voltage
+Charging Power
+Charging time at 220 V / 12 A (standard)
+Charging time at 220 V / 16 A (Mode3 cable)
+Secondary battery
+Maximum Speed
+Acceleration 0-50 km/h
+Acceleration 0-100 km/h
+Recuperation
+Rear Brake
+Max  Power
+Rear rim
+Secondary ratio
+Dry Weight / Wet-weight
+Front  Wheel Travel
+Top Seed
+Overview
+Braking 60 km/h - 0 / 100 km/h - 0
+Braking 100 - 0 km/h
+Standing      Â¼     Mile
+FrontRim
+RearRim
+Braking 60 km/h / 37 mph - 0
+Gear ratios
+Secondary Drive
+Standard equipment:
+Optional equimpent:
+Optional accessories:
+Compression ratio
+Standing 0 - 150km
+Standing ¼ mile
+Reviews
+Cooling system
+Rear Wheel travel
+Standard equipment
+Optional equipment
+Special accessories
+Standing     Â¼ Mile
+Wet-weight
+Consumption
+Power transmission
+Total gear reduction
+Front Wheel travel
+Trial
+Acceleration0 - 100 km / 62 mph
