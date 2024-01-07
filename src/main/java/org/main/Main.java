@@ -54,7 +54,8 @@ public class Main {
                 "99 - Quit\n" +
                 "0  - About App + Instructions\n" +
                 "1  - ReplaceDiacritic\n" +
-                "2  - Order alphabetically");
+                "2  - Order alphabetically\n" +
+                "3  - abc_abc to abcAbc");
     }
 
     public static void replaceDiacritics() throws IOException {
