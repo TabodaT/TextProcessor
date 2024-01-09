@@ -17,6 +17,24 @@ public class ProcessText {
         }
     };
 
+    public List<String> extractLinesThatContain(String textToContain, List<String> someList){
+        List<String> result = new ArrayList<>();
+        Iterator<String> line = someList.iterator();
+        String previous = "";
+        while (line.hasNext()){
+            String lineText = line.next();
+            if (lineText.contains(textToContain)) {
+                if (lineText.equals(previous)){
+                    result.add(lineText+"\t\t\t\t\t\t <------HERE Duplicate");
+                }else {
+                    result.add(lineText);
+                }
+                previous = lineText;
+            }
+        }
+        return result;
+    }
+
     public List<String> replaceDiacritics(List<String> someList){
         Iterator<String> line = someList.iterator();
         List<String> result = new ArrayList<>();

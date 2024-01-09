@@ -1,268 +1,64 @@
-ABS
-ABS / Pro
-ABS Pro
-ABS System
-Acc: 0 - 145 km/h / 90 mph
-Acc: 0 - 161 km/h / 100 mph
-Acc: 0 - 48 km/h / 30 mph
-Acc: 0 - 97 km/h / 60 mph
-Acceleration 0 - 100 km/h / 62 mph
-Acceleration 0 - 100mk/h / 62 mph
-Acceleration 0-100 km/h
-Acceleration 0-100 km/h / 62 mph
-Acceleration 0-50 km/h
-Acceleration 100 - 140 km/h
-Acceleration 100-140 km/h
-Acceleration 140 - 180 km/h
-Acceleration 140-180 km/h
-Acceleration 50-100 km/h
-Acceleration 50-140 km/h
-Acceleration 60 - 100 km/h
-Acceleration 60 - 140 km/h
-Acceleration 60-100 / 100-140 / 140-180 km/h
-Acceleration 60-100 km/h
-Acceleration 60-140 km/h
-Acceleration0 - 100 km / 62 mph
-Alternator
-Average Consumption
-Average Tank Distance
-Battery
-Battery Capacity (gross)
-Battery Voltage
-Bevel / Crown wheel
-Bore x Sroke
-Bore x Stroke
-Braking 100 - 0 km/h
-Braking 100 km/h - 0
-Braking 100 km/h / 62 mph - 0
-Braking 48 km/h / 30 mph - 0
-Braking 60 - 0 / 100 - 0
-Braking 60 - 0 / 100 - 0(mph: 37 - 0 / 62 - 0)
-Braking 60 km/h - 0
-Braking 60 km/h - 0 / 100 km/h - 0
-Braking 60 km/h / 37 mph - 0
-Braking 60 km/h- 0
-Braking 60km/h / 37 mph - 0
-Braking 97 km/h / 60 mph - 0
-Capacity
-Castor
-Charging
-Charging Power
-Charging System
-Charging Time
-Charging time at 220 V / 12 A (standard)
-Charging time at 220 V / 16 A (Mode3 cable)
-Clutch
-Compression Ratio
-Compression ratio
-Consumption
-Consumption Average
-Cooling
-Cooling     System
-Cooling System
-Cooling system
-Dimensions
-Drive
-Dry Weigh
-Dry Weight
-Dry Weight / Wet-weight
-Dry-Weight
-Dryt Weight
-Electrical System
-Electrical system
-Emission
-Emission Control
-Emission control
-Emissions
-Engine
-Engine Control
-Engine Management
-Engine Oil
-Engine control
-Exhaust
-Exhaust management
-Final     Drive
-Final Drive
-Final Drive Ratio
-Font Wheel Travel
-Fork Angle
-Frame
-Front    Rim
-Front  Wheel Travel
-Front Brake
-Front Brakes
-Front RIM
-Front Rim
-Front Suspension
-Front Tyre
-Front Wheel
-Front Wheel Travel
-Front Wheel ravel
-Front Wheel travel
-Front WheelTravel
-Front wheel
-Front wheel Travel
-FrontRim
-Fuel
-Fuel Capacity
-Fuel Reserve
-Fuel System
-Fuel Type
-Fuel consumption
-GVWR
-Gear Ratio
-Gear Ratio Sport Version
-Gear Ratios
-Gear ratios
-Generator
-Ground Clearance
-Ground clearance
-Headlamp
-Headlight
-Ignition
-Ignition /     Starting
-Induction
-Ingnition
-Inner Leg Curve
-Inside Leg Length
-Intake / Exhaust Ø
-Intake / exhaust Ø
-Intake Valve
-Intake x Outlet
-Load Capacity (full tank)
-Lubrication
-Make Model
-Max  Power
-Max Power
-Max Power Rear Tyre
-Max Power Rear Wheel
-Max Torque
-Max. Output
-Max. Torque
-Maximum Speed
-Mixture Control
-Mixture control
-Motor
-Oil Capacity
-Optional accessories:
-Optional equimpent:
-Optional equipment
-Outlet Valve
-Overview
-Permitted Total Weight
-Power transmission
-Power-to-weight ratio
-Primary Drive
-Primary Drive Ratio
-Primary Ratio
-Production
-Rake
-Range
-Rated Output
-Rear Brake
-Rear Brakes
-Rear Rim
-Rear Suspension
-Rear Tyre
-Rear Wheel
-Rear Wheel Ratio
-Rear Wheel Travel
-Rear Wheel travel
-Rear rim
-Rear wheel
-Rear wheel Travel
-RearRim
-Recuperation
-Reserve
-Reserve Tank
-Review
-Reviews
-Riear Rim
-Rim Front
-Rim Rear
-Rim, Font
-Rim, Front
-Rim, Rear
-Rim, front
-Rim, rear
-Rims, front
-Rims, rear
-Road Test
-Seat Height
-Secondary Drive
-Secondary Ratio
-Secondary battery
-Secondary ratio
-Spark Plug
-Spark Plugs
-Special accessories
-Standard equipment
-Standard equipment:
-Standing           ¼ Mile
-Standing      ¼     Mile
-Standing      ¼ Mile
-Standing      Â¼     Mile
-Standing     ¼     Mile
-Standing     ¼ Mile
-Standing     Â¼ Mile
-Standing 0 - 100 km/h
-Standing 0 - 100 km/h / 62 mph
-Standing 0 - 1000 m
-Standing 0 - 1000m
-Standing 0 - 100km
-Standing 0 - 100km/h
-Standing 0 - 140 km/h
-Standing 0 - 140km
-Standing 0 - 140km/h
-Standing 0 - 150 km/h
-Standing 0 - 150km
-Standing 0 - 180km
-Standing 0 - 200 km/h
-Standing 0 - 2000 km/h
-Standing 0 - 200km
-Standing 0 - 200km/h
-Standing 0 -100 km/h
-Standing 0 -150 km/h
-Standing 0 -200 km/h
-Standing 0-1000 m
-Standing ¼ Mile
-Standing ¼ mile
-Starting
-Steering Angle
-Steering Head Angle
-Tank Range
-Tank Reserve
-Tank range
-Throttle
-Throttle Valve Diameter
-Throttle valve diameter
-Top Gear Acc: 64 - 97 km/h / 40 - 60 mph
-Top Gear Acc: 97 - 129 km/h / 60 - 80 mph
-Top Seed
-Top Speed
-Total Gear Ratio
-Total Permitted Weight
-Total gear reduction
-Traction Control
-Trail
-Transmission
-Transmission /     Drive
-Transmission / Drive
-Transmission Ratio
-Transmission ratio
-Trial
-Valve Intake / exhaust
-Valve/Accelerator Actuation
-Weight
-Wet Weight
-Wet-Weight
-Wet-weight
-Wheel Base
-Wheel Castor
-Wheel base
-Wheel castor
-Wheelbase
-Wheelbsase
-Wheels
-Year
-Ø Intake/Outlet
+imageFile:        BMWR1200C-1998.jpg
+imageFile:        BMWR1200C04.jpg
+imageFile:        BMWR1200C1.jpg
+imageFile:        BMWR1200C2.jpg
+imageFile:        BMWR1200CAvantgarde.jpg
+imageFile:        BMWR1200CIndependent.jpg
+imageFile:        BMWR1200CL.jpg
+imageFile:        BMWR1200CL05.jpg
+imageFile:        BMWR1200CL2.jpg
+imageFile:        BMWR1200CMontauk031.jpg
+imageFile:        BMWR1200GS042.jpg
+imageFile:        BMWR1200GS048.jpg
+imageFile:        BMWR1200GS06.jpg
+imageFile:        BMWR1200GS07.jpg
+imageFile:        BMWR1200GS085.jpg
+imageFile:        BMWR1200GS104.jpg
+imageFile:        BMWR1200GS11.jpg
+imageFile:        BMWR1200GS121.jpg
+imageFile:        BMWR1200GS13.jpg
+imageFile:        BMWR1200GS152.jpg
+imageFile:        BMWR1200GS162.jpg
+imageFile:        BMWR1200GSAden132.jpg
+imageFile:        BMWR1200GSAdvblack.jpg
+imageFile:        BMWR1200GSAdve161.jpg
+imageFile:        BMWR1200GSAdventure063.jpg
+imageFile:        BMWR1200GSAdventure067.jpg
+imageFile:        BMWR1200GSAdventure082.jpg
+imageFile:        BMWR1200GSAdventure082.jpg						 <------HERE Duplicate
+imageFile:        BMWR1200GSAdventure106.jpg
+imageFile:        BMWR1200GSAdventure106.jpg						 <------HERE Duplicate
+imageFile:        BMWR1200GSAdventure122.jpg
+imageFile:        BMWR1200GSAdventure141.jpg
+imageFile:        BMWR1200GSAdventure142.jpg
+imageFile:        BMWR1200GSAdventureLongWayDownReplicas.jpg
+imageFile:        BMWR1200GSAdventureSpecial.jpg
+imageFile:        BMWR1200GSAdventureTripleBlack-16--1.jpg
+imageFile:        BMWR1200GSAdventure_18_01.jpg
+imageFile:        BMWR1200GSHeroesLegendEdition,......1.jpg
+imageFile:        BMWR1200GSRally123.jpg
+imageFile:        BMWR1200GSSpecial.jpg
+imageFile:        BMWR1200GSSpecial1.jpg
+imageFile:        BMWR1200GSTomLuthiLimitedEdition.jpg
+imageFile:        BMWR1200GSTripleBlac163.jpg
+imageFile:        BMWR1200GSTripleBlack11.jpg
+imageFile:        BMWR1200GSadveBlack01.jpg
+imageFile:        BMWR1200gs90thani133.jpg
+imageFile:        BMWR1250GSAdventure24.jpg
+imageFile:        BMWR1250GSEX1901.jpg
+imageFile:        BMWR1250GSHP1901.jpg
+imageFile:        BMWR1250GSSt1901.jpg
+imageFile:        bmw-r1200gs-17-02.jpg
+imageFile:        bmw_r1200gs_17_01.jpg
+imageFile:        bmw_r1200gs_17_08.jpg
+imageFile:        bmw_r1200gs_17_09.jpg
+imageFile:        bmwr1200gs02.jpg
+imageFile:        bmwr1200gsadveniconic01.jpg
+imageFile:        bmwr1200gsiconic01.jpg
+imageFile:        bmwr1250gs2001.jpg
+imageFile:        bmwr1250gs2103.jpg
+imageFile:        bmwr1250gs40th2101.jpg
+imageFile:        bmwr1250gsadv2103.jpg
+imageFile:        bmwr1250gsadv40th2103.jpg
+imageFile:        bmwr1250gsadventure2002.jpg
+imageFile:        bmwr1300gs202401.jpg

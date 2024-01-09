@@ -1,269 +1,495 @@
-Make Model
-Year
-Engine
-Capacity
-Bore x Stroke
-Cooling System
-Compression Ratio
-Induction
-Ignition
-Alternator
-Spark Plug
-Starting
-Max Power
-Max Torque
-Clutch
-Transmission
-Final Drive
-Gear Ratio
-Gear Ratio Sport Version
-Rear Wheel Ratio
-Bevel / Crown wheel
-Frame
-Front Suspension
-Front Wheel Travel
-Rear Suspension
-Rear Wheel Travel
-Front Brakes
-Rear Brakes
-Front Wheel
-Rear Wheel
-Front Tyre
-Rear Tyre
-Dimensions
-Wheelbase
-Seat Height
-Ground Clearance
-Dry Weight
-Wet Weight
-Fuel Capacity
-Consumption Average
-Standing      ¼ Mile
-Top Speed
-Road Test
-Final     Drive
-Standing     ¼     Mile
-Lubrication
-Exhaust
-Battery
-Wheels
-Rim, Front
-Rim, rear
-Rake
-Castor
-Standing     ¼ Mile
-Braking 60 km/h - 0
-Braking 100 km/h - 0
-Motor
-Range
-Generator
-Total Gear Ratio
-ABS System
-Front Rim
-Rear Rim
-Trail
-Weight
-Charging
-Charging Time
-Emission
-Fuel
-Engine Control
-Primary Ratio
-Gear Ratios
-Secondary Ratio
-Steering Angle
-Permitted Total Weight
-Steering Head Angle
-Emission Control
-ABS
-Rim Front
-Rim Rear
-Inner Leg Curve
-GVWR
-Engine Management
-Engine control
-ABS / Pro
-Traction Control
-Cooling
-Reserve
-Intake / exhaust Ø
-Throttle valve diameter
-Emission control
-Transmission ratio
-Fuel Reserve
-Wheel Base
-Average Tank Distance
-Drive
-Tank Reserve
-Standing 0 - 100 km/h
-Standing 0 - 140 km/h
-Standing 0 - 200 km/h
-Acceleration 60-100 km/h
-Acceleration 60-140 km/h
-Acceleration 100-140 km/h
-Acceleration 140-180 km/h
-Final Drive Ratio
-Front WheelTravel
-Front RIM
-Riear Rim
-Standing 0 - 1000m
-Production
-Spark Plugs
-Tank Range
-Braking 60 - 0 / 100 - 0
-Acceleration 0 - 100mk/h / 62 mph
-Wheelbsase
-Intake x Outlet
-Headlight
-Front    Rim
-Charging System
-Power-to-weight ratio
-Front wheel
-Rear wheel
-Engine Oil
-Max Power Rear Wheel
-Average Consumption
-Braking 100 km/h / 62 mph - 0
-Standing 0 - 100 km/h / 62 mph
-Fuel consumption
-Acceleration 0 - 100 km/h / 62 mph
-Wet-Weight
-Max Power Rear Tyre
-Braking 60 km/h- 0
-Front Brake
-Intake Valve
-Outlet Valve
-Total Permitted Weight
-Transmission /     Drive
-Electrical system
-Wheel Castor
-Exhaust management
-Primary Drive Ratio
-Rims, front
-Rims, rear
-Dry-Weight
-Tank range
-Review
-Transmission Ratio
-Wheel castor
-Front wheel Travel
-Rear wheel Travel
-Fuel System
-Standing ¼ Mile
-Electrical System
-Reserve Tank
-Standing 0 - 100km
-Rim, Font
-Rim, Rear
-Wheel base
-Inside Leg Length
-Emissions
-Fuel Type
-Mixture Control
-ABS Pro
-Acceleration 0-100 km/h / 62 mph
-Fork Angle
-Font Wheel Travel
-Dry Weigh
+C:\Users\octa_\.jdks\corretto-17.0.8.1\bin\java.exe -agentlib:jdwp=transport=dt_socket,address=127.0.0.1:59377,suspend=y,server=n -javaagent:C:\Users\octa_\AppData\Local\JetBrains\IdeaIC2022.3\captureAgent\debugger-agent.jar -Dfile.encoding=UTF-8 -classpath "D:\Learning\Projects\Scrapping Projects\MotorcycleSpecsScrapper\MotorcycleSpecsScrapper\target\classes;C:\Users\octa_\.m2\repository\org\springframework\boot\spring-boot-starter-web\3.1.3\spring-boot-starter-web-3.1.3.jar;C:\Users\octa_\.m2\repository\org\springframework\boot\spring-boot-starter\3.1.3\spring-boot-starter-3.1.3.jar;C:\Users\octa_\.m2\repository\org\springframework\boot\spring-boot\3.1.3\spring-boot-3.1.3.jar;C:\Users\octa_\.m2\repository\org\springframework\boot\spring-boot-autoconfigure\3.1.3\spring-boot-autoconfigure-3.1.3.jar;C:\Users\octa_\.m2\repository\org\springframework\boot\spring-boot-starter-logging\3.1.3\spring-boot-starter-logging-3.1.3.jar;C:\Users\octa_\.m2\repository\ch\qos\logback\logback-classic\1.4.11\logback-classic-1.4.11.jar;C:\Users\octa_\.m2\repository\ch\qos\logback\logback-core\1.4.11\logback-core-1.4.11.jar;C:\Users\octa_\.m2\repository\org\apache\logging\log4j\log4j-to-slf4j\2.20.0\log4j-to-slf4j-2.20.0.jar;C:\Users\octa_\.m2\repository\org\apache\logging\log4j\log4j-api\2.20.0\log4j-api-2.20.0.jar;C:\Users\octa_\.m2\repository\org\slf4j\jul-to-slf4j\2.0.7\jul-to-slf4j-2.0.7.jar;C:\Users\octa_\.m2\repository\jakarta\annotation\jakarta.annotation-api\2.1.1\jakarta.annotation-api-2.1.1.jar;C:\Users\octa_\.m2\repository\org\yaml\snakeyaml\1.33\snakeyaml-1.33.jar;C:\Users\octa_\.m2\repository\org\springframework\boot\spring-boot-starter-json\3.1.3\spring-boot-starter-json-3.1.3.jar;C:\Users\octa_\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.15.2\jackson-datatype-jdk8-2.15.2.jar;C:\Users\octa_\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.15.2\jackson-datatype-jsr310-2.15.2.jar;C:\Users\octa_\.m2\repository\com\fasterxml\jackson\module\jackson-module-parameter-names\2.15.2\jackson-module-parameter-names-2.15.2.jar;C:\Users\octa_\.m2\repository\org\springframework\boot\spring-boot-starter-tomcat\3.1.3\spring-boot-starter-tomcat-3.1.3.jar;C:\Users\octa_\.m2\repository\org\apache\tomcat\embed\tomcat-embed-core\10.1.12\tomcat-embed-core-10.1.12.jar;C:\Users\octa_\.m2\repository\org\apache\tomcat\embed\tomcat-embed-el\10.1.12\tomcat-embed-el-10.1.12.jar;C:\Users\octa_\.m2\repository\org\apache\tomcat\embed\tomcat-embed-websocket\10.1.12\tomcat-embed-websocket-10.1.12.jar;C:\Users\octa_\.m2\repository\org\springframework\spring-web\6.0.11\spring-web-6.0.11.jar;C:\Users\octa_\.m2\repository\org\springframework\spring-beans\6.0.11\spring-beans-6.0.11.jar;C:\Users\octa_\.m2\repository\io\micrometer\micrometer-observation\1.11.3\micrometer-observation-1.11.3.jar;C:\Users\octa_\.m2\repository\io\micrometer\micrometer-commons\1.11.3\micrometer-commons-1.11.3.jar;C:\Users\octa_\.m2\repository\org\springframework\spring-webmvc\6.0.11\spring-webmvc-6.0.11.jar;C:\Users\octa_\.m2\repository\org\springframework\spring-aop\6.0.11\spring-aop-6.0.11.jar;C:\Users\octa_\.m2\repository\org\springframework\spring-context\6.0.11\spring-context-6.0.11.jar;C:\Users\octa_\.m2\repository\org\springframework\spring-expression\6.0.11\spring-expression-6.0.11.jar;C:\Users\octa_\.m2\repository\org\springframework\boot\spring-boot-starter-jdbc\3.1.3\spring-boot-starter-jdbc-3.1.3.jar;C:\Users\octa_\.m2\repository\com\zaxxer\HikariCP\5.0.1\HikariCP-5.0.1.jar;C:\Users\octa_\.m2\repository\org\slf4j\slf4j-api\2.0.7\slf4j-api-2.0.7.jar;C:\Users\octa_\.m2\repository\org\springframework\spring-jdbc\6.0.11\spring-jdbc-6.0.11.jar;C:\Users\octa_\.m2\repository\org\springframework\spring-tx\6.0.11\spring-tx-6.0.11.jar;C:\Users\octa_\.m2\repository\com\mysql\mysql-connector-j\8.0.33\mysql-connector-j-8.0.33.jar;C:\Users\octa_\.m2\repository\org\springframework\spring-core\6.0.11\spring-core-6.0.11.jar;C:\Users\octa_\.m2\repository\org\springframework\spring-jcl\6.0.11\spring-jcl-6.0.11.jar;C:\Users\octa_\.m2\repository\net\sourceforge\htmlunit\htmlunit\2.60.0\htmlunit-2.60.0.jar;C:\Users\octa_\.m2\repository\xalan\xalan\2.7.2\xalan-2.7.2.jar;C:\Users\octa_\.m2\repository\xalan\serializer\2.7.2\serializer-2.7.2.jar;C:\Users\octa_\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\octa_\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\octa_\.m2\repository\org\apache\httpcomponents\httpcore\4.4.16\httpcore-4.4.16.jar;C:\Users\octa_\.m2\repository\net\sourceforge\htmlunit\htmlunit-core-js\2.60.0\htmlunit-core-js-2.60.0.jar;C:\Users\octa_\.m2\repository\net\sourceforge\htmlunit\neko-htmlunit\2.60.0\neko-htmlunit-2.60.0.jar;C:\Users\octa_\.m2\repository\xerces\xercesImpl\2.12.2\xercesImpl-2.12.2.jar;C:\Users\octa_\.m2\repository\xml-apis\xml-apis\1.4.01\xml-apis-1.4.01.jar;C:\Users\octa_\.m2\repository\net\sourceforge\htmlunit\htmlunit-cssparser\1.11.0\htmlunit-cssparser-1.11.0.jar;C:\Users\octa_\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\octa_\.m2\repository\org\apache\commons\commons-text\1.9\commons-text-1.9.jar;C:\Users\octa_\.m2\repository\commons-io\commons-io\2.10.0\commons-io-2.10.0.jar;C:\Users\octa_\.m2\repository\commons-net\commons-net\3.8.0\commons-net-3.8.0.jar;C:\Users\octa_\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\octa_\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\octa_\.m2\repository\com\shapesecurity\salvation2\3.0.0\salvation2-3.0.0.jar;C:\Users\octa_\.m2\repository\org\eclipse\jetty\websocket\websocket-client\9.4.45.v20220203\websocket-client-9.4.45.v20220203.jar;C:\Users\octa_\.m2\repository\org\eclipse\jetty\jetty-client\11.0.15\jetty-client-11.0.15.jar;C:\Users\octa_\.m2\repository\org\eclipse\jetty\jetty-http\11.0.15\jetty-http-11.0.15.jar;C:\Users\octa_\.m2\repository\org\eclipse\jetty\jetty-alpn-client\11.0.15\jetty-alpn-client-11.0.15.jar;C:\Users\octa_\.m2\repository\org\eclipse\jetty\jetty-util\11.0.15\jetty-util-11.0.15.jar;C:\Users\octa_\.m2\repository\org\eclipse\jetty\jetty-io\11.0.15\jetty-io-11.0.15.jar;C:\Users\octa_\.m2\repository\org\eclipse\jetty\websocket\websocket-common\9.4.45.v20220203\websocket-common-9.4.45.v20220203.jar;C:\Users\octa_\.m2\repository\org\eclipse\jetty\websocket\websocket-api\9.4.45.v20220203\websocket-api-9.4.45.v20220203.jar;C:\Users\octa_\.m2\repository\org\projectlombok\lombok\1.18.28\lombok-1.18.28.jar;C:\Users\octa_\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.13.2.1\jackson-databind-2.13.2.1.jar;C:\Users\octa_\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.15.2\jackson-annotations-2.15.2.jar;C:\Users\octa_\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.15.2\jackson-core-2.15.2.jar;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.3.2\lib\idea_rt.jar" com.example.scrapping.MotoSpecsScrapper
+Connected to the target VM, address: '127.0.0.1:59377', transport: 'socket'
 
-Oil Capacity
-Load Capacity (full tank)
-Braking 48 km/h / 30 mph - 0
-Braking 97 km/h / 60 mph - 0
-Acc: 0 - 48 km/h / 30 mph
-Acc: 0 - 97 km/h / 60 mph
-Acc: 0 - 145 km/h / 90 mph
-Acc: 0 - 161 km/h / 100 mph
-Top Gear Acc: 64 - 97 km/h / 40 - 60 mph
-Top Gear Acc: 97 - 129 km/h / 60 - 80 mph
-Standing 0 - 2000 km/h
-Headlamp
-Front Wheel ravel
-Cooling     System
-Standing 0 - 140km
-Standing 0 - 180km
-Standing           ¼ Mile
-Standing 0 - 150 km/h
-Braking 60km/h / 37 mph - 0
-Acceleration 60 - 100 km/h
-Acceleration 60 - 140 km/h
-Acceleration 100 - 140 km/h
-Acceleration 140 - 180 km/h
-Throttle
-Valve Intake / exhaust
-Standing 0 - 1000 m
-Mixture control
-Standing 0 - 100km/h
-Standing 0 - 140km/h
-Standing 0 - 200km/h
-Acceleration 60-100 / 100-140 / 140-180 km/h
-Ingnition
-Standing      ¼     Mile
-Bore x Sroke
-Transmission / Drive
-Rim, front
-Standing 0 - 200km
-Ignition /     Starting
-Dryt Weight
-Braking 60 - 0 / 100 - 0(mph: 37 - 0 / 62 - 0)
-Intake / Exhaust Ø
-Throttle Valve Diameter
-Ground clearance
-Valve/Accelerator Actuation
-Ø Intake/Outlet
-Primary Drive
-Standing 0-1000 m
-Acceleration 50-100 km/h
-Acceleration 50-140 km/h
-Standing 0 -100 km/h
-Standing 0 -150 km/h
-Standing 0 -200 km/h
-Rated Output
-Max. Output
-Max. Torque
-Battery Capacity (gross)
-Battery Voltage
-Charging Power
-Charging time at 220 V / 12 A (standard)
-Charging time at 220 V / 16 A (Mode3 cable)
-Secondary battery
-Maximum Speed
-Acceleration 0-50 km/h
-Acceleration 0-100 km/h
-Recuperation
-Rear Brake
-Max  Power
-Rear rim
-Secondary ratio
-Dry Weight / Wet-weight
-Front  Wheel Travel
-Top Seed
-Overview
-Braking 60 km/h - 0 / 100 km/h - 0
-Braking 100 - 0 km/h
-Standing      Â¼     Mile
-FrontRim
-RearRim
-Braking 60 km/h / 37 mph - 0
-Gear ratios
-Secondary Drive
-Standard equipment:
-Optional equimpent:
-Optional accessories:
-Compression ratio
-Standing 0 - 150km
-Standing ¼ mile
-Reviews
-Cooling system
-Rear Wheel travel
-Standard equipment
-Optional equipment
-Special accessories
-Standing     Â¼ Mile
-Wet-weight
-Consumption
-Power transmission
-Total gear reduction
-Front Wheel travel
-Trial
-Acceleration0 - 100 km / 62 mph
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.1.3)
+
+2024-01-09T21:58:05.013+02:00  INFO 15032 --- [           main] c.example.scrapping.MotoSpecsScrapper    : Starting MotoSpecsScrapper using Java 17.0.8.1 with PID 15032 (D:\Learning\Projects\Scrapping Projects\MotorcycleSpecsScrapper\MotorcycleSpecsScrapper\target\classes started by octa_ in D:\Learning\Projects\Scrapping Projects\MotorcycleSpecsScrapper\MotorcycleSpecsScrapper)
+2024-01-09T21:58:05.018+02:00  INFO 15032 --- [           main] c.example.scrapping.MotoSpecsScrapper    : No active profile set, falling back to 1 default profile: "default"
+2024-01-09T21:58:06.121+02:00  INFO 15032 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-01-09T21:58:06.129+02:00  INFO 15032 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-01-09T21:58:06.130+02:00  INFO 15032 --- [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.12]
+2024-01-09T21:58:06.233+02:00  INFO 15032 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-01-09T21:58:06.234+02:00  INFO 15032 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1160 ms
+2024-01-09T21:58:06.671+02:00  INFO 15032 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-01-09T21:58:06.680+02:00  INFO 15032 --- [           main] c.example.scrapping.MotoSpecsScrapper    : Started MotoSpecsScrapper in 2.014 seconds (process running for 2.418)
+--------------------- Page: 1 ---------------------
+HERE ---------------------------------
+--------------------- Page: 2 ---------------------
+HERE ---------------------------------
+--------------------- Page: 3 ---------------------
+HERE ---------------------------------
+--------------------- Page: 4 ---------------------
+HERE ---------------------------------
+--------------------- Page: 5 ---------------------
+HERE ---------------------------------
+--------------------- Page: 6 ---------------------
+HERE ---------------------------------
+--------------------- Page: 7 ---------------------
+HERE ---------------------------------
+--------------------- Page: 8 ---------------------
+1. R 1200C https://www.motorcyclespecs.co.za/model/bmw/bmw-r1200c.html
+2. R 1200C https://www.motorcyclespecs.co.za/model/bmw/bmw-r1200c-98.html
+3. R 1200C https://www.motorcyclespecs.co.za/model/bmw/bmw-r1200c-00.html
+4. R 1200C https://www.motorcyclespecs.co.za/model/bmw/bmw-r1200c-03.html
+5. R 1200C Montauk https://www.motorcyclespecs.co.za/model/bmw/bmw-r1200c-montauk-03.html
+6. R 1200C Aventgarde https://www.motorcyclespecs.co.za/model/bmw/bmw-r1200c-avantgarde-02.html
+7. R 1200C Independent https://www.motorcyclespecs.co.za/model/bmw/bmw-r1200c-independent-02.html
+8. R 1200CL https://www.motorcyclespecs.co.za/model/bmw/bmw-r1200cl.html
+9. R 1200CL https://www.motorcyclespecs.co.za/model/bmw/bmw-r1200cl-04.html
+10. R 1200CL https://www.motorcyclespecs.co.za/model/bmw/bmw-r1200cl-05.html
+11. R 1200GS https://www.motorcyclespecs.co.za/model/bmw/bmw-r1200gs-04.html
+12. R 1200GS https://www.motorcyclespecs.co.za/model/bmw/bmw-r1200gs-05.html
+13. R 1200GS https://www.motorcyclespecs.co.za/model/bmw/bmw-r1200gs-06.html
+14. R 1200GS https://www.motorcyclespecs.co.za/model/bmw/bmw-r1200gs-07.html
+15. R 1200GS https://www.motorcyclespecs.co.za/model/bmw/bmw-r1200gs-08.html
+16. R 1200GS Alpine White Special Version https://www.motorcyclespecs.co.za/model/bmw/bmw-r1200gs-special-09.html
+17. R 1200GS https://www.motorcyclespecs.co.za/model/bmw/bmw-r1200gs-10.html
+18. R 1200GS 30th Anniversary Special https://www.motorcyclespecs.co.za/model/bmw/bmw-r1200gs-special-10.html
+19. R 1200GS https://www.motorcyclespecs.co.za/model/bmw/bmw-r1200gs-11.html
+20. R 1200GS Triple Black Special Edition https://www.motorcyclespecs.co.za/model/bmw/bmw-r1200gs-black-11.html
+21. R 1200GS https://www.motorcyclespecs.co.za/model/bmw/bmw-r1200gs-12.html
+22. R 1200GS Tom Luthi Limited Edition https://www.motorcyclespecs.co.za/model/bmw/bmw-r1200gs-Luthi-ie.html
+23. R 1200GS Rallye https://www.motorcyclespecs.co.za/model/bmw/bmw-r1200gs-rally-12.html
+24. R 1200GS Adventure https://www.motorcyclespecs.co.za/model/bmw/bmw-r1200gs-adventure-06.html
+25. R 1200GS Adventure https://www.motorcyclespecs.co.za/model/bmw/bmw-r1200gs-adventure-07.html
+26. R 1200GS Adventure https://www.motorcyclespecs.co.za/model/bmw/bmw-r1200gs-adventure-heroes-legend.html
+27. R 1200GS Adventure https://www.motorcyclespecs.co.za/model/bmw/bmw-r1200gs-adventure-08.html
+28. R 1200GS Adventure https://www.motorcyclespecs.co.za/model/bmw/bmw-r1200gs-adventure-09.html
+29. R 1200GS Adventure Long Way Down Replicas https://www.motorcyclespecs.co.za/model/bmw/bmw-r1200gs-adventure-long-way.html
+30. R 1200GS Adventure https://www.motorcyclespecs.co.za/model/bmw/bmw-r1200gs-adventure-10.html
+31. R 1200GS Adventure 30th Anniversary Special https://www.motorcyclespecs.co.za/model/bmw/bmw-r1200gs-adventure-special-10.html
+32. R 1200GS Adventure https://www.motorcyclespecs.co.za/model/bmw/bmw-r1200gs-adventure-11.html
+33. R 1200GS Adventure Triple Black https://www.motorcyclespecs.co.za/model/bmw/bmw-r1200gs-adventure-black.html
+34. R 1200GS Adventure https://www.motorcyclespecs.co.za/model/bmw/bmw-r1200gs-adventure-12.html
+35. R 1200GS Adventure https://www.motorcyclespecs.co.za/model/bmw/bmw-r1200gs-adventure-13.html
+36. R 1200GS Adventure 90th Anniversary Special https://www.motorcyclespecs.co.za/model/bmw/bmw-r1200gs-90th-anniversary.html
+37. R 1200GS LC https://www.motorcyclespecs.co.za/model/bmw/bmw-r1200gs-13.html
+38. R 1200GS LC https://www.motorcyclespecs.co.za/model/bmw/bmw-r1200gs-14.html
+39. R 1200GS LC https://www.motorcyclespecs.co.za/model/bmw/bmw-r1200gs-15.html
+40. R 1200GS LC https://www.motorcyclespecs.co.za/model/bmw/bmw-r1200gs-16.html
+41. R 1200GS LC Triple Black Special Edition https://www.motorcyclespecs.co.za/model/bmw/bmw-r1200gs-lc-triole-black.html
+42. R 1200GS LC Iconic Limited Edition https://www.motorcyclespecs.co.za/model/bmw/bmw-r1200gs-iconic.html
+43. R 1200GS LC TE Exclusive https://www.motorcyclespecs.co.za/model/bmw/bmw-r1200gs-ex-17.html
+44. R 1200GS LC Rallye https://www.motorcyclespecs.co.za/model/bmw/bmw-r1200gs-17.html
+45. R 1200GS LC TE Exclusive https://www.motorcyclespecs.co.za/model/bmw/bmw-r1200gs-ex-18.html
+46. R 1200GS LC Rallye https://www.motorcyclespecs.co.za/model/bmw/bmw-r1200gs-rally-18.html
+47. R 1200GS LC Adventure https://www.motorcyclespecs.co.za/model/bmw/bmw-r1200gs-adventure-14.html
+48. R 1200GS LC Adventure https://www.motorcyclespecs.co.za/model/bmw/bmw-r1200gs-adventure-15.html
+49. R 1200GS LC Adventure https://www.motorcyclespecs.co.za/model/bmw/bmw-r1200gs-adventure-16.html
+50. R 1200GS LC Adventure Iconic Limited Edition https://www.motorcyclespecs.co.za/model/bmw/bmw-r1200gs-adventure-iconic-16.html
+51. R 1200GS LC Adventure Triple Black https://www.motorcyclespecs.co.za/model/bmw/bmw-r1200gs-adventure-triple-black.html
+52. R 1200GS LC Adventure https://www.motorcyclespecs.co.za/model/bmw/bmw-r1200gs-adventure-18.html
+53. R 1200GS LC Adventure Black Edition https://www.motorcyclespecs.co.za/model/bmw/bmw-r1200gs-adventure-black-18.html
+54. R 1250GS https://www.motorcyclespecs.co.za/model/bmw/bmw-r1250gs-19.html
+55. R 1250GS Exclusive https://www.motorcyclespecs.co.za/model/bmw/bmw-r1250gs-ex-19.html
+56. R 1250GS HP https://www.motorcyclespecs.co.za/model/bmw/bmw-r1250gs-hp-19.html
+57. R 1250GS / Exclusive / HP https://www.motorcyclespecs.co.za/model/bmw/bmw-r1250gs-20.html
+58. R 1250GS https://www.motorcyclespecs.co.za/model/bmw/bmw-r1250gs-21.html
+59. R 1250GS 40 Years Edition https://www.motorcyclespecs.co.za/model/bmw/bmw-r1250gs-40th-21.html
+60. R 1250GS Adventure https://www.motorcyclespecs.co.za/model/bmw/bmw-r250gs_adven-19.html
+61. R 1250GS Adventure https://www.motorcyclespecs.co.za/model/bmw/bmw-r1250gs-adven-20.html
+62. R 1250GS Adventure https://www.motorcyclespecs.co.za/model/bmw/bmw-r1250gs-adven-21.html
+63. R 1250GS Adventure 40 Years Edition https://www.motorcyclespecs.co.za/model/bmw/bmw-r1250gs-adven-40th-21.html
+64. R 1300GS https://www.motorcyclespecs.co.za/model/bmw/bmw-r1300gs-2024.html
+Here1
+Here2
+1/64: R 1200GS Tom Luthi Limited Edition
+../../Gallery%20B/BMW%20R1200GS%20Tom%20Luthi%20Limited%20Edition.jpg
+formattedImgLink: ../../GalleryB/BMWR1200GSTomLuthiLimitedEdition.jpg
+imageLink:        https://www.motorcyclespecs.co.za/Gallery%20B/BMW%20R1200GS%20Tom%20Luthi%20Limited%20Edition.jpg
+imageFile:        BMWR1200GSTomLuthiLimitedEdition.jpg
+Image downloaded successfully!
+2/64: R 1200C Independent
+../../Gallery%20B/BMW%20R1200C%20Independent.jpg
+formattedImgLink: ../../GalleryB/BMWR1200CIndependent.jpg
+imageLink:        https://www.motorcyclespecs.co.za/Gallery%20B/BMW%20R1200C%20Independent.jpg
+imageFile:        BMWR1200CIndependent.jpg
+Image downloaded successfully!
+Here!!
+3/64: R 1200GS Triple Black Special Edition
+../../Gallery%20B/BMW%20R%201200GS%20Triple%20Black%20%20%2011.jpg
+formattedImgLink: ../../GalleryB/BMWR1200GSTripleBlack11.jpg
+imageLink:        https://www.motorcyclespecs.co.za/Gallery%20B/BMW%20R%201200GS%20Triple%20Black%20%20%2011.jpg
+imageFile:        BMWR1200GSTripleBlack11.jpg
+Image downloaded successfully!
+4/64: R 1250GS 40 Years Edition
+../../Gallery_A-L_16/bmw-r1250gs-40th-21-01.jpg
+formattedImgLink: ../../Gallery_AL_16/bmwr1250gs40th2101.jpg
+imageLink:        https://www.motorcyclespecs.co.za/Gallery_A-L_16/bmw-r1250gs-40th-21-01.jpg
+imageFile:        bmwr1250gs40th2101.jpg
+Image downloaded successfully!
+5/64: R 1200GS Adventure Long Way Down Replicas
+../../Gallery%20B/BMW%20R1200GS%20Adventure%20Long%20Way%20Down%20Replicas.jpg
+formattedImgLink: ../../GalleryB/BMWR1200GSAdventureLongWayDownReplicas.jpg
+imageLink:        https://www.motorcyclespecs.co.za/Gallery%20B/BMW%20R1200GS%20Adventure%20Long%20Way%20Down%20Replicas.jpg
+imageFile:        BMWR1200GSAdventureLongWayDownReplicas.jpg
+Image downloaded successfully!
+6/64: R 1200GS Adventure
+../../Gallery/BMW%20R1200GS%20Adventure%2006%20%207.jpg
+formattedImgLink: ../../Gallery/BMWR1200GSAdventure067.jpg
+imageLink:        https://www.motorcyclespecs.co.za/Gallery/BMW%20R1200GS%20Adventure%2006%20%207.jpg
+imageFile:        BMWR1200GSAdventure067.jpg
+Image downloaded successfully!
+7/64: R 1200GS LC Adventure
+../../Gallery_A-L_16/BMW%20R1200GS%20Adventure_18_01.jpg
+formattedImgLink: ../../Gallery_A-L_16/BMWR1200GSAdventure_18_01.jpg
+imageLink:        https://www.motorcyclespecs.co.za/Gallery_A-L_16/BMW%20R1200GS%20Adventure_18_01.jpg
+imageFile:        BMWR1200GSAdventure_18_01.jpg
+Image downloaded successfully!
+8/64: R 1200GS Alpine White Special Version
+../../Gallery%20B/BMW%20R%201200GS%20Special%20%201.jpg
+formattedImgLink: ../../GalleryB/BMWR1200GSSpecial1.jpg
+imageLink:        https://www.motorcyclespecs.co.za/Gallery%20B/BMW%20R%201200GS%20Special%20%201.jpg
+imageFile:        BMWR1200GSSpecial1.jpg
+Image downloaded successfully!
+9/64: R 1250GS Exclusive
+../../Gallery_A-L_16/BMW-R1250GS-EX-19-01.jpg
+formattedImgLink: ../../Gallery_AL_16/BMWR1250GSEX1901.jpg
+imageLink:        https://www.motorcyclespecs.co.za/Gallery_A-L_16/BMW-R1250GS-EX-19-01.jpg
+imageFile:        BMWR1250GSEX1901.jpg
+Image downloaded successfully!
+10/64: R 1200GS
+../../Gallery%20B/BMW%20R%201200%20GS%2010%20%204.jpg
+formattedImgLink: ../../GalleryB/BMWR1200GS104.jpg
+imageLink:        https://www.motorcyclespecs.co.za/Gallery%20B/BMW%20R%201200%20GS%2010%20%204.jpg
+imageFile:        BMWR1200GS104.jpg
+Image downloaded successfully!
+11/64: R 1200GS
+../../Gallery%20B/BMW%20R1200GS%2007.jpg
+formattedImgLink: ../../GalleryB/BMWR1200GS07.jpg
+imageLink:        https://www.motorcyclespecs.co.za/Gallery%20B/BMW%20R1200GS%2007.jpg
+imageFile:        BMWR1200GS07.jpg
+Image downloaded successfully!
+12/64: R 1200GS 30th Anniversary Special
+../../Gallery/BMW%20R1200GS%20Special.jpg
+formattedImgLink: ../../Gallery/BMWR1200GSSpecial.jpg
+imageLink:        https://www.motorcyclespecs.co.za/Gallery/BMW%20R1200GS%20Special.jpg
+imageFile:        BMWR1200GSSpecial.jpg
+Image downloaded successfully!
+13/64: R 1200GS Adventure
+../../Gallery/BMW%20R1200GS%20Adventure%2006%20%203.jpg
+formattedImgLink: ../../Gallery/BMWR1200GSAdventure063.jpg
+imageLink:        https://www.motorcyclespecs.co.za/Gallery/BMW%20R1200GS%20Adventure%2006%20%203.jpg
+imageFile:        BMWR1200GSAdventure063.jpg
+Image downloaded successfully!
+14/64: R 1200GS LC
+../../Gallery%20B/BMW%20R1200GS%2013.jpg
+formattedImgLink: ../../GalleryB/BMWR1200GS13.jpg
+imageLink:        https://www.motorcyclespecs.co.za/Gallery%20B/BMW%20R1200GS%2013.jpg
+imageFile:        BMWR1200GS13.jpg
+Image downloaded successfully!
+15/64: R 1200C
+../../Gallery/BMW%20R1200%20C%2004.jpg
+formattedImgLink: ../../Gallery/BMWR1200C04.jpg
+imageLink:        https://www.motorcyclespecs.co.za/Gallery/BMW%20R1200%20C%2004.jpg
+imageFile:        BMWR1200C04.jpg
+Image downloaded successfully!
+Here!!
+16/64: R 1250GS / Exclusive / HP
+../../Gallery_A-L_16/bmw-r1250gs-20-01.jpg
+formattedImgLink: ../../Gallery_AL_16/bmwr1250gs2001.jpg
+imageLink:        https://www.motorcyclespecs.co.za/Gallery_A-L_16/bmw-r1250gs-20-01.jpg
+imageFile:        bmwr1250gs2001.jpg
+Image downloaded successfully!
+17/64: R 1250GS Adventure
+../../Gallery_A-L_16/BMW-R1250GS-Adventure-24.jpg
+formattedImgLink: ../../Gallery_AL_16/BMWR1250GSAdventure24.jpg
+imageLink:        https://www.motorcyclespecs.co.za/Gallery_A-L_16/BMW-R1250GS-Adventure-24.jpg
+imageFile:        BMWR1250GSAdventure24.jpg
+Image downloaded successfully!
+18/64: R 1250GS Adventure 40 Years Edition
+../../Gallery_A-L_16/bmw-r1250gs-adv-40th-21-03.jpg
+formattedImgLink: ../../Gallery_AL_16/bmwr1250gsadv40th2103.jpg
+imageLink:        https://www.motorcyclespecs.co.za/Gallery_A-L_16/bmw-r1250gs-adv-40th-21-03.jpg
+imageFile:        bmwr1250gsadv40th2103.jpg
+Image downloaded successfully!
+19/64: R 1200CL
+../../Gallery/BMW%20R1200%20CL.jpg
+formattedImgLink: ../../Gallery/BMWR1200CL.jpg
+imageLink:        https://www.motorcyclespecs.co.za/Gallery/BMW%20R1200%20CL.jpg
+imageFile:        BMWR1200CL.jpg
+Image downloaded successfully!
+Here!!
+20/64: R 1200CL
+../../Gallery/BMW%20R1200%20CL%20%202.jpg
+formattedImgLink: ../../Gallery/BMWR1200CL2.jpg
+imageLink:        https://www.motorcyclespecs.co.za/Gallery/BMW%20R1200%20CL%20%202.jpg
+imageFile:        BMWR1200CL2.jpg
+Image downloaded successfully!
+Here!!
+21/64: R 1200GS LC Adventure Triple Black
+../../Gallery_A-L_16/BMW%20R1200GS%20Adventure%20Triple%20Black-16--1.jpg
+formattedImgLink: ../../Gallery_A-L_16/BMWR1200GSAdventureTripleBlack-16--1.jpg
+imageLink:        https://www.motorcyclespecs.co.za/Gallery_A-L_16/BMW%20R1200GS%20Adventure%20Triple%20Black-16--1.jpg
+imageFile:        BMWR1200GSAdventureTripleBlack-16--1.jpg
+Image downloaded successfully!
+22/64: R 1200C
+../../Gallery/BMW%20R1200C%20%201.jpg
+formattedImgLink: ../../Gallery/BMWR1200C1.jpg
+imageLink:        https://www.motorcyclespecs.co.za/Gallery/BMW%20R1200C%20%201.jpg
+imageFile:        BMWR1200C1.jpg
+Image downloaded successfully!
+Here!!
+23/64: R 1200C Aventgarde
+../../Gallery/BMW%20R1200C%20Avantgarde.jpg
+formattedImgLink: ../../Gallery/BMWR1200CAvantgarde.jpg
+imageLink:        https://www.motorcyclespecs.co.za/Gallery/BMW%20R1200C%20Avantgarde.jpg
+imageFile:        BMWR1200CAvantgarde.jpg
+Image downloaded successfully!
+Here!!
+24/64: R 1200GS LC Adventure
+../../Gallery%20B/BMW%20R1200GS%20Adventure%2014%20%202.jpg
+formattedImgLink: ../../GalleryB/BMWR1200GSAdventure142.jpg
+imageLink:        https://www.motorcyclespecs.co.za/Gallery%20B/BMW%20R1200GS%20Adventure%2014%20%202.jpg
+imageFile:        BMWR1200GSAdventure142.jpg
+Image downloaded successfully!
+25/64: R 1200GS LC Rallye
+../../Gallery_A-L_16/bmw_r1200gs_17_01.jpg
+formattedImgLink: ../../Gallery_AL_16/bmw_r1200gs_17_01.jpg
+imageLink:        https://www.motorcyclespecs.co.za/Gallery_A-L_16/bmw_r1200gs_17_01.jpg
+imageFile:        bmw_r1200gs_17_01.jpg
+Image downloaded successfully!
+26/64: R 1250GS
+../../Gallery_A-L_16/bmw-r1250gs-21-03.jpg
+formattedImgLink: ../../Gallery_AL_16/bmwr1250gs2103.jpg
+imageLink:        https://www.motorcyclespecs.co.za/Gallery_A-L_16/bmw-r1250gs-21-03.jpg
+imageFile:        bmwr1250gs2103.jpg
+Image downloaded successfully!
+27/64: R 1200GS Rallye
+../../Gallery%20B/BMW%20R%201200%20GS%20Rally%2012%20%203.jpg
+formattedImgLink: ../../GalleryB/BMWR1200GSRally123.jpg
+imageLink:        https://www.motorcyclespecs.co.za/Gallery%20B/BMW%20R%201200%20GS%20Rally%2012%20%203.jpg
+imageFile:        BMWR1200GSRally123.jpg
+Image downloaded successfully!
+28/64: R 1200GS Adventure Triple Black
+../../Gallery%20B/BMW%20R%201200GS%20Adv%20black.jpg
+formattedImgLink: ../../GalleryB/BMWR1200GSAdvblack.jpg
+imageLink:        https://www.motorcyclespecs.co.za/Gallery%20B/BMW%20R%201200GS%20Adv%20black.jpg
+imageFile:        BMWR1200GSAdvblack.jpg
+Image downloaded successfully!
+29/64: R 1200GS Adventure 90th Anniversary Special
+../../Gallery%20B/BMW%20R1200gs%2090th%20ani%2013%20%203.jpg
+formattedImgLink: ../../GalleryB/BMWR1200gs90thani133.jpg
+imageLink:        https://www.motorcyclespecs.co.za/Gallery%20B/BMW%20R1200gs%2090th%20ani%2013%20%203.jpg
+imageFile:        BMWR1200gs90thani133.jpg
+Image downloaded successfully!
+30/64: R 1250GS Adventure
+../../Gallery_A-L_16/bmw-r1250gs-adv-21-03.jpg
+formattedImgLink: ../../Gallery_AL_16/bmwr1250gsadv2103.jpg
+imageLink:        https://www.motorcyclespecs.co.za/Gallery_A-L_16/bmw-r1250gs-adv-21-03.jpg
+imageFile:        bmwr1250gsadv2103.jpg
+Image downloaded successfully!
+31/64: R 1200GS LC
+../../Gallery%20B/BMW%20R1200GS%2015%202.jpg
+formattedImgLink: ../../GalleryB/BMWR1200GS152.jpg
+imageLink:        https://www.motorcyclespecs.co.za/Gallery%20B/BMW%20R1200GS%2015%202.jpg
+imageFile:        BMWR1200GS152.jpg
+Image downloaded successfully!
+32/64: R 1200GS LC TE Exclusive
+../../Gallery%20B/bmw-r1200gs-17-02.jpg
+formattedImgLink: ../../GalleryB/bmw-r1200gs-17-02.jpg
+imageLink:        https://www.motorcyclespecs.co.za/Gallery%20B/bmw-r1200gs-17-02.jpg
+imageFile:        bmw-r1200gs-17-02.jpg
+Image downloaded successfully!
+33/64: R 1200GS
+../../Gallery/BMW%20R1200GS%2006.jpg
+formattedImgLink: ../../Gallery/BMWR1200GS06.jpg
+imageLink:        https://www.motorcyclespecs.co.za/Gallery/BMW%20R1200GS%2006.jpg
+imageFile:        BMWR1200GS06.jpg
+Image downloaded successfully!
+34/64: R 1300GS
+../../gallery-a-l-23/bmw-r1300gs-2024-01.jpg
+formattedImgLink: ../../galleryal23/bmwr1300gs202401.jpg
+imageLink:        https://www.motorcyclespecs.co.za/gallery-a-l-23/bmw-r1300gs-2024-01.jpg
+imageFile:        bmwr1300gs202401.jpg
+Image downloaded successfully!
+35/64: R 1200GS LC Triple Black Special Edition
+../../Gallery%20B/BMW%20R1200GS%20Triple%20Blac%2016%20%203.jpg
+formattedImgLink: ../../GalleryB/BMWR1200GSTripleBlac163.jpg
+imageLink:        https://www.motorcyclespecs.co.za/Gallery%20B/BMW%20R1200GS%20Triple%20Blac%2016%20%203.jpg
+imageFile:        BMWR1200GSTripleBlac163.jpg
+Image downloaded successfully!
+36/64: R 1200GS LC Adventure Iconic Limited Edition
+../../Gallery_A-L_16/bmw-r1200gs-adven-iconic-01.jpg
+formattedImgLink: ../../Gallery_AL_16/bmwr1200gsadveniconic01.jpg
+imageLink:        https://www.motorcyclespecs.co.za/Gallery_A-L_16/bmw-r1200gs-adven-iconic-01.jpg
+imageFile:        bmwr1200gsadveniconic01.jpg
+Image downloaded successfully!
+37/64: R 1200GS
+../../Gallery%20B/BMW%20R1200GS%2012%20%201.jpg
+formattedImgLink: ../../GalleryB/BMWR1200GS121.jpg
+imageLink:        https://www.motorcyclespecs.co.za/Gallery%20B/BMW%20R1200GS%2012%20%201.jpg
+imageFile:        BMWR1200GS121.jpg
+Image downloaded successfully!
+38/64: R 1200GS
+../../Gallery/BMW%20R1200GS%2004%20%208.jpg
+formattedImgLink: ../../Gallery/BMWR1200GS048.jpg
+imageLink:        https://www.motorcyclespecs.co.za/Gallery/BMW%20R1200GS%2004%20%208.jpg
+imageFile:        BMWR1200GS048.jpg
+Image downloaded successfully!
+39/64: R 1200C
+../../Gallery/BMW%20R1200C%20%202.jpg
+formattedImgLink: ../../Gallery/BMWR1200C2.jpg
+imageLink:        https://www.motorcyclespecs.co.za/Gallery/BMW%20R1200C%20%202.jpg
+imageFile:        BMWR1200C2.jpg
+Image downloaded successfully!
+Here!!
+40/64: R 1200GS Adventure
+../../Gallery%20B/BMW%20R1200GS%20Adventure%2008%20%202.jpg
+formattedImgLink: ../../GalleryB/BMWR1200GSAdventure082.jpg
+imageLink:        https://www.motorcyclespecs.co.za/Gallery%20B/BMW%20R1200GS%20Adventure%2008%20%202.jpg
+imageFile:        BMWR1200GSAdventure082.jpg
+Image downloaded successfully!
+41/64: R 1200GS Adventure
+../../Gallery%20B/BMW%20R1200GS%20Adventure%2012%20%202.jpg
+formattedImgLink: ../../GalleryB/BMWR1200GSAdventure122.jpg
+imageLink:        https://www.motorcyclespecs.co.za/Gallery%20B/BMW%20R1200GS%20Adventure%2012%20%202.jpg
+imageFile:        BMWR1200GSAdventure122.jpg
+Image downloaded successfully!
+42/64: R 1200CL
+../../Gallery/BMW%20R1200%20CL%20%2005.jpg
+formattedImgLink: ../../Gallery/BMWR1200CL05.jpg
+imageLink:        https://www.motorcyclespecs.co.za/Gallery/BMW%20R1200%20CL%20%2005.jpg
+imageFile:        BMWR1200CL05.jpg
+Image downloaded successfully!
+Here!!
+43/64: R 1250GS HP
+../../Gallery_A-L_16/BMW-R1250GS-HP-19-01.jpg
+formattedImgLink: ../../Gallery_AL_16/BMWR1250GSHP1901.jpg
+imageLink:        https://www.motorcyclespecs.co.za/Gallery_A-L_16/BMW-R1250GS-HP-19-01.jpg
+imageFile:        BMWR1250GSHP1901.jpg
+Image downloaded successfully!
+44/64: R 1250GS
+../../Gallery_A-L_16/BMW-R1250GS-St-19-01.jpg
+formattedImgLink: ../../Gallery_AL_16/BMWR1250GSSt1901.jpg
+imageLink:        https://www.motorcyclespecs.co.za/Gallery_A-L_16/BMW-R1250GS-St-19-01.jpg
+imageFile:        BMWR1250GSSt1901.jpg
+Image downloaded successfully!
+45/64: R 1200GS Adventure
+../../Gallery%20B/BMW%20R%201200%20GS%20Adventure%2010%20%206.jpg
+formattedImgLink: ../../GalleryB/BMWR1200GSAdventure106.jpg
+imageLink:        https://www.motorcyclespecs.co.za/Gallery%20B/BMW%20R%201200%20GS%20Adventure%2010%20%206.jpg
+imageFile:        BMWR1200GSAdventure106.jpg
+Image downloaded successfully!
+46/64: R 1200C
+../../Gallery/BMW%20R1200C-1998.jpg
+formattedImgLink: ../../Gallery/BMWR1200C-1998.jpg
+imageLink:        https://www.motorcyclespecs.co.za/Gallery/BMW%20R1200C-1998.jpg
+imageFile:        BMWR1200C-1998.jpg
+Image downloaded successfully!
+Here!!
+47/64: R 1200GS LC Adventure
+../../Gallery%20B/BMW%20R1200GS%20Adventure%2014%20%201.jpg
+formattedImgLink: ../../GalleryB/BMWR1200GSAdventure141.jpg
+imageLink:        https://www.motorcyclespecs.co.za/Gallery%20B/BMW%20R1200GS%20Adventure%2014%20%201.jpg
+imageFile:        BMWR1200GSAdventure141.jpg
+Image downloaded successfully!
+48/64: R 1200C Montauk
+../../Gallery/BMW%20R1200C%20Montauk%2003%20%20%201.jpg
+formattedImgLink: ../../Gallery/BMWR1200CMontauk031.jpg
+imageLink:        https://www.motorcyclespecs.co.za/Gallery/BMW%20R1200C%20Montauk%2003%20%20%201.jpg
+imageFile:        BMWR1200CMontauk031.jpg
+Image downloaded successfully!
+Here!!
+49/64: R 1200GS LC Iconic Limited Edition
+../../Gallery_A-L_16/bmw-r1200gs-iconic-01.jpg
+formattedImgLink: ../../Gallery_AL_16/bmwr1200gsiconic01.jpg
+imageLink:        https://www.motorcyclespecs.co.za/Gallery_A-L_16/bmw-r1200gs-iconic-01.jpg
+imageFile:        bmwr1200gsiconic01.jpg
+Image downloaded successfully!
+50/64: R 1200GS Adventure
+../../Gallery%20B/BMW%20R1200GS%20%20Aden%2013%20%202.jpg
+formattedImgLink: ../../GalleryB/BMWR1200GSAden132.jpg
+imageLink:        https://www.motorcyclespecs.co.za/Gallery%20B/BMW%20R1200GS%20%20Aden%2013%20%202.jpg
+imageFile:        BMWR1200GSAden132.jpg
+Image downloaded successfully!
+51/64: R 1200GS LC
+../../Gallery%20B/BMW%20R1200GS%2016%20%202.jpg
+formattedImgLink: ../../GalleryB/BMWR1200GS162.jpg
+imageLink:        https://www.motorcyclespecs.co.za/Gallery%20B/BMW%20R1200GS%2016%20%202.jpg
+imageFile:        BMWR1200GS162.jpg
+Image downloaded successfully!
+52/64: R 1200GS LC Adventure
+../../Gallery%20B/BMW%20R1200GS%20Adve%2016%20%201.jpg
+formattedImgLink: ../../GalleryB/BMWR1200GSAdve161.jpg
+imageLink:        https://www.motorcyclespecs.co.za/Gallery%20B/BMW%20R1200GS%20Adve%2016%20%201.jpg
+imageFile:        BMWR1200GSAdve161.jpg
+Image downloaded successfully!
+53/64: R 1200GS
+../../Gallery/BMW%20R1200GS%2004%20%202.jpg
+formattedImgLink: ../../Gallery/BMWR1200GS042.jpg
+imageLink:        https://www.motorcyclespecs.co.za/Gallery/BMW%20R1200GS%2004%20%202.jpg
+imageFile:        BMWR1200GS042.jpg
+Image downloaded successfully!
+54/64: R 1200GS LC TE Exclusive
+../../Gallery_A-L_16/bmw_r1200gs_17_08.jpg
+formattedImgLink: ../../Gallery_AL_16/bmw_r1200gs_17_08.jpg
+imageLink:        https://www.motorcyclespecs.co.za/Gallery_A-L_16/bmw_r1200gs_17_08.jpg
+imageFile:        bmw_r1200gs_17_08.jpg
+Image downloaded successfully!
+55/64: R 1200GS LC Rallye
+../../Gallery_A-L_16/bmw_r1200gs_17_09.jpg
+formattedImgLink: ../../Gallery_AL_16/bmw_r1200gs_17_09.jpg
+imageLink:        https://www.motorcyclespecs.co.za/Gallery_A-L_16/bmw_r1200gs_17_09.jpg
+imageFile:        bmw_r1200gs_17_09.jpg
+Image downloaded successfully!
+56/64: R 1200GS
+../../Gallery%20B/BMW%20R1200GS%2008%20%205.jpg
+formattedImgLink: ../../GalleryB/BMWR1200GS085.jpg
+imageLink:        https://www.motorcyclespecs.co.za/Gallery%20B/BMW%20R1200GS%2008%20%205.jpg
+imageFile:        BMWR1200GS085.jpg
+Image downloaded successfully!
+57/64: R 1200GS Adventure
+../../Gallery%20B/BMW%20R%201200%20GS%20Adventure%2010%20%206.jpg
+formattedImgLink: ../../GalleryB/BMWR1200GSAdventure106.jpg
+imageLink:        https://www.motorcyclespecs.co.za/Gallery%20B/BMW%20R%201200%20GS%20Adventure%2010%20%206.jpg
+imageFile:        BMWR1200GSAdventure106.jpg
+Image downloaded successfully!
+58/64: R 1250GS Adventure
+../../Gallery_A-L_16/bmw-r1250gs-adventure-20-02.jpg
+formattedImgLink: ../../Gallery_AL_16/bmwr1250gsadventure2002.jpg
+imageLink:        https://www.motorcyclespecs.co.za/Gallery_A-L_16/bmw-r1250gs-adventure-20-02.jpg
+imageFile:        bmwr1250gsadventure2002.jpg
+Image downloaded successfully!
+59/64: R 1200GS
+../../Gallery%20B/BMW%20R1200GS%20%2011.jpg
+formattedImgLink: ../../GalleryB/BMWR1200GS11.jpg
+imageLink:        https://www.motorcyclespecs.co.za/Gallery%20B/BMW%20R1200GS%20%2011.jpg
+imageFile:        BMWR1200GS11.jpg
+Image downloaded successfully!
+60/64: R 1200GS LC
+../../Gallery%20B/bmw%20r1200gs%2002.jpg
+formattedImgLink: ../../GalleryB/bmwr1200gs02.jpg
+imageLink:        https://www.motorcyclespecs.co.za/Gallery%20B/bmw%20r1200gs%2002.jpg
+imageFile:        bmwr1200gs02.jpg
+Image downloaded successfully!
+61/64: R 1200GS Adventure
+../../Gallery%20B/BMW%20R1200GS%20Heroes%20Legend%20Edition,......%20%201.jpg
+formattedImgLink: ../../GalleryB/BMWR1200GSHeroesLegendEdition,......1.jpg
+imageLink:        https://www.motorcyclespecs.co.za/Gallery%20B/BMW%20R1200GS%20Heroes%20Legend%20Edition,......%20%201.jpg
+imageFile:        BMWR1200GSHeroesLegendEdition,......1.jpg
+Image downloaded successfully!
+62/64: R 1200GS LC Adventure Black Edition
+../../Gallery_A-L_16/BMW-R1200GS-adve-Black-01.jpg
+formattedImgLink: ../../Gallery_AL_16/BMWR1200GSadveBlack01.jpg
+imageLink:        https://www.motorcyclespecs.co.za/Gallery_A-L_16/BMW-R1200GS-adve-Black-01.jpg
+imageFile:        BMWR1200GSadveBlack01.jpg
+Image downloaded successfully!
+63/64: R 1200GS Adventure
+../../Gallery%20B/BMW%20R1200GS%20Adventure%2008%20%202.jpg
+formattedImgLink: ../../GalleryB/BMWR1200GSAdventure082.jpg
+imageLink:        https://www.motorcyclespecs.co.za/Gallery%20B/BMW%20R1200GS%20Adventure%2008%20%202.jpg
+imageFile:        BMWR1200GSAdventure082.jpg
+Image downloaded successfully!
+64/64: R 1200GS Adventure 30th Anniversary Special
+../../Gallery/BMW%20R%201200%20GS%20Adventure%20Special.jpg
+formattedImgLink: ../../Gallery/BMWR1200GSAdventureSpecial.jpg
+imageLink:        https://www.motorcyclespecs.co.za/Gallery/BMW%20R%201200%20GS%20Adventure%20Special.jpg
+imageFile:        BMWR1200GSAdventureSpecial.jpg
+Image downloaded successfully!
