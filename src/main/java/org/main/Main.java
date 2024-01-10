@@ -39,6 +39,9 @@ public class Main {
                 case 3:
                     extractLinesThatContain(sc);
                     break;
+                case 4:
+                    convertFieldsInComments();
+                    break;
                 case 99:
                     break;
                 default:
@@ -62,7 +65,14 @@ public class Main {
                         "1  - ReplaceDiacritic\n" +
                         "2  - Order alphabetically\n" +
                         "3  - Extract lines that contain, insert:\n" +
-                        "4  - abc_abc to abcAbc");
+                        "4  - From create sql script to comments in code for organised code\n" +
+                        "5  - abc_abc to abcAbc");
+    }
+
+    public static void convertFieldsInComments() throws IOException {
+        readAndShowBefore();
+        listOfLines = processText.convertFieldsInComments(listOfLines);
+        showAfterAndWrite();
     }
 
     public static void extractLinesThatContain(Scanner sc) throws IOException {

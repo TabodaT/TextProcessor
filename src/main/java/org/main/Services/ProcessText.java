@@ -17,6 +17,23 @@ public class ProcessText {
         }
     };
 
+//    public List<String> modelOfNewFunction(List<String> someList){
+//        List<String> result = new ArrayList<>();
+//
+//        return result;
+//    }
+
+    public List<String> convertFieldsInComments(List<String> someList){
+        List<String> result = new ArrayList<>();
+        Iterator<String> line = someList.iterator();
+        while (line.hasNext()){
+            String thisLine = line.next();
+            thisLine = "// " + thisLine.substring(0,thisLine.lastIndexOf("`")).replace("`","");
+            result.add(thisLine);
+        }
+        return result;
+    }
+
     public List<String> extractLinesThatContain(String textToContain, List<String> someList){
         List<String> result = new ArrayList<>();
         Iterator<String> line = someList.iterator();
