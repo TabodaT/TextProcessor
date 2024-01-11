@@ -1,27 +1,5 @@
-//   id
-//   make
-//   model
-//   engine
-//   capacity
-//   power
-//   clutch
-//   torque
-//   abs
-//   front_brakes
-//   rear_brakes
-//   transmission
-//   final_drive
-//   seat_height
-//   dry_weight
-//   wet_weight
-//   fuel_capacity
-//   reserve
-//   consumption
-//   range
-//   cooling_system
-//   ignition
-//   oil_capacity
-//   power_to_weight_ratio
-//   top_speed
-//   url
-//   image
+snake
+snakeCase
+asdDsa
+qweFghklXzc
+qDqSVE

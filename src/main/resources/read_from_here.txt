@@ -1,27 +1,5 @@
-  `id` int NOT NULL AUTO_INCREMENT,
-  `make` varchar(50) NOT NULL,
-  `model` varchar(50) NOT NULL,
-  `engine` varchar(50),
-  `capacity` varchar(50) NOT NULL,
-  `power` varchar(50) NOT NULL,
-  `clutch` varchar(50),
-  `torque` varchar(50),
-  `abs` BOOLEAN,
-  `front_brakes` varchar(50),
-  `rear_brakes` varchar(50),
-  `transmission` varchar(50),
-  `final_drive` varchar(50),
-  `seat_height` varchar(50),
-  `dry_weight` varchar(50),
-  `wet_weight` varchar(50),
-  `fuel_capacity` varchar(50),
-  `reserve` varchar(50),
-  `consumption` varchar(50),
-  `range` varchar(50),
-  `cooling_system` varchar(50),
-  `ignition` varchar(50),
-  `oil_capacity` varchar(50),
-  `power_to_weight_ratio` varchar(50),
-  `top_speed` varchar(50),
-  `url` varchar(50),
-  `image` varchar(50),
+snake
+snake_case
+asd_dsa
+qwe_fghkl_xzc
+q_dq_s_v_e

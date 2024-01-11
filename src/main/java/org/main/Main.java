@@ -42,6 +42,9 @@ public class Main {
                 case 4:
                     convertFieldsInComments();
                     break;
+                case 5:
+                    snakeCaseToCamelCase();
+                    break;
                 case 99:
                     break;
                 default:
@@ -66,7 +69,15 @@ public class Main {
                         "2  - Order alphabetically\n" +
                         "3  - Extract lines that contain, insert:\n" +
                         "4  - From create sql script to comments in code for organised code\n" +
-                        "5  - abc_abc to abcAbc");
+                        "5  - abc_abc to abcAbc (snake_case to camelCase");
+    }
+
+
+
+    public static void snakeCaseToCamelCase() throws IOException {
+        readAndShowBefore();
+        listOfLines = processText.snakeCaseToCamelCase(listOfLines);
+        showAfterAndWrite();
     }
 
     public static void convertFieldsInComments() throws IOException {
