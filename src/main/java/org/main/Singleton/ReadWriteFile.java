@@ -4,16 +4,20 @@ import java.io.*;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
 public class ReadWriteFile {
     private static ReadWriteFile instance;
-    public ReadWriteFile() {}
 
-    public static ReadWriteFile getInstance(){
-        if (instance == null){
+    public ReadWriteFile() {
+    }
+
+    public static ReadWriteFile getInstance() {
+        if (instance == null) {
             instance = new ReadWriteFile();
         }
         return instance;
@@ -35,20 +39,20 @@ public class ReadWriteFile {
         return listOfLines;
     }
 
-    public void writeFile(String filePath, List<String> listOfLines) throws IOException{
+    public void writeFile(String filePath, List<String> listOfLines) throws IOException {
         Path path = Paths.get(filePath);
         BufferedWriter bw = Files.newBufferedWriter(path);
 
-        try{
+        try {
             Iterator<String> iter = listOfLines.iterator();
-            while (iter.hasNext()){
+            while (iter.hasNext()) {
 //                String item = this.curata(iter.next());
                 String item = iter.next();
-                if (item.length()<2) continue;
+                if (item.length() < 2) continue;
                 bw.write(item);
                 bw.newLine();
             }
-        }finally{
+        } finally {
             bw.close();
         }
     }
@@ -57,12 +61,13 @@ public class ReadWriteFile {
         FileWriter fw = null;
         BufferedWriter bw = null;
         PrintWriter pw = null;
+        String getNow = LocalDateTime.now().format(DateTimeFormatter.ofPattern("HH:mm:ss|dd/MM/yy"));
         try {
             fw = new FileWriter(filePath, true);
             bw = new BufferedWriter(fw);
             pw = new PrintWriter(bw);
 
-            pw.println("This part of text is added by appending to file ("+filePath+")");
+            pw.println(getNow + "This part of text is added by appending to file (" + filePath + ")");
 
             pw.flush();
         } finally {
