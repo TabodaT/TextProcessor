@@ -6,8 +6,8 @@ public class ProcessText {
     public ProcessText() {
     }
 
-    private final String[] listDiatriticsArr = new String[]{"ă", "â", "î", "ş", "ţ"};
-    private final List<String> listDiatritics = Arrays.asList(listDiatriticsArr);
+    private final String[] listDiacriticsArr = new String[]{"ă", "â", "î", "ş", "ţ"};
+    private final List<String> listDiacritics = Arrays.asList(listDiacriticsArr);
     private final Map<String, String> replaceDiacriticsMap = new HashMap<>() {
         {
             put("ă", "a");
@@ -92,11 +92,7 @@ public class ProcessText {
         System.out.println(line);
         for (int i = 0; i < line.length(); i++) {
             String s = Character.toString(line.charAt(i));
-//            if (!Character.isLetter(line.charAt(i))){
-//                line = line.substring(0,i);
-//                break;
-//            }
-            if (!listDiatritics.contains(s)) continue;
+            if (!listDiacritics.contains(s)) continue;
             sub1 = line.substring(0, i);
             sub2 = line.substring(i + 1);
             line = sub1 + replaceDiacriticsMap.get(s) + sub2;
