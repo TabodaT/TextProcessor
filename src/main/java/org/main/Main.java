@@ -45,6 +45,9 @@ public class Main {
                 case 5:
                     snakeCaseToCamelCase();
                     break;
+                case 6:
+                    appendingToExistingFile();
+                    break;
                 case 99:
                     break;
                 default:
@@ -69,7 +72,8 @@ public class Main {
                         "2  - Order alphabetically\n" +
                         "3  - Extract lines that contain, insert:\n" +
                         "4  - From create sql script to comments in code for organised code\n" +
-                        "5  - abc_abc to abcAbc (snake_case to camelCase");
+                        "5  - abc_abc to abcAbc (snake_case to camelCase)\n" +
+                        "6  - append something to \"written_here.txt\"");
     }
 
 
@@ -123,6 +127,12 @@ public class Main {
         System.out.println("After:  " + listOfLines);
         readWriteFile.writeFile(writeTo, listOfLines);
         listOfLines.clear();
+
+    }
+
+    public static void appendingToExistingFile() throws IOException{
+
+        readWriteFile.appendingToExistingFile(writeTo);
 
     }
 }

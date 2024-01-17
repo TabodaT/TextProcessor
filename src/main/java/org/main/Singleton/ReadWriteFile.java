@@ -1,8 +1,6 @@
 package org.main.Singleton;
 
-import java.io.BufferedReader;
-import java.io.BufferedWriter;
-import java.io.IOException;
+import java.io.*;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
@@ -12,8 +10,7 @@ import java.util.List;
 
 public class ReadWriteFile {
     private static ReadWriteFile instance;
-    public ReadWriteFile() {
-    }
+    public ReadWriteFile() {}
 
     public static ReadWriteFile getInstance(){
         if (instance == null){
@@ -53,6 +50,30 @@ public class ReadWriteFile {
             }
         }finally{
             bw.close();
+        }
+    }
+
+    public void appendingToExistingFile(String filePath) throws IOException {
+        FileWriter fw = null;
+        BufferedWriter bw = null;
+        PrintWriter pw = null;
+        try {
+            fw = new FileWriter(filePath, true);
+            bw = new BufferedWriter(fw);
+            pw = new PrintWriter(bw);
+
+            pw.println("This part of text is added by appending to file ("+filePath+")");
+
+            pw.flush();
+        } finally {
+            try {
+                pw.close();
+                bw.close();
+                fw.close();
+            } catch (IOException io) {
+                System.out.println(io);
+            }
+
         }
     }
 }
