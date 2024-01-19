@@ -26,6 +26,15 @@ public class ProcessText {
 //        }
 //        return result;
 //    }
+    public List<String> replaceWithNewRow(List<String> someList, String toBeReplaced) {
+        List<String> result = new ArrayList<>();
+        Iterator<String> line = someList.iterator();
+        while (line.hasNext()) {
+            List<String> newLines = Arrays.asList(line.next().split(toBeReplaced));
+            result.addAll(newLines);
+        }
+        return result;
+    }
 
     public List<String> snakeCaseToCamelCase(List<String> someList) {
         List<String> result = new ArrayList<>();

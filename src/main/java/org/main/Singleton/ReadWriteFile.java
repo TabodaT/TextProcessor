@@ -46,9 +46,8 @@ public class ReadWriteFile {
         try {
             Iterator<String> iter = listOfLines.iterator();
             while (iter.hasNext()) {
-//                String item = this.curata(iter.next());
                 String item = iter.next();
-                if (item.length() < 2) continue;
+                if (item.length() == 2) continue;
                 bw.write(item);
                 bw.newLine();
             }

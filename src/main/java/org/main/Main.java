@@ -48,6 +48,9 @@ public class Main {
                 case 6:
                     appendingToExistingFile();
                     break;
+                case 7:
+                    replaceWithNewRow(sc);
+                    break;
                 case 99:
                     break;
                 default:
@@ -73,10 +76,17 @@ public class Main {
                         "3  - Extract lines that contain, insert:\n" +
                         "4  - From create sql script to comments in code for organised code\n" +
                         "5  - abc_abc to abcAbc (snake_case to camelCase)\n" +
-                        "6  - append something to \"written_here.txt\"");
+                        "6  - append something to \"written_here.txt\"\n" +
+                        "7  - replace char/String with new row");
     }
 
-
+    public static void replaceWithNewRow(Scanner sc) throws IOException {
+        readAndShowBefore();
+        System.out.println("Insert what you want to replace with new line:");
+        String opt = sc.nextLine();
+        listOfLines = processText.replaceWithNewRow(listOfLines, opt);
+        showAfterAndWrite();
+    }
 
     public static void snakeCaseToCamelCase() throws IOException {
         readAndShowBefore();
@@ -130,7 +140,7 @@ public class Main {
 
     }
 
-    public static void appendingToExistingFile() throws IOException{
+    public static void appendingToExistingFile() throws IOException {
 
         readWriteFile.appendingToExistingFile(writeTo);
 
