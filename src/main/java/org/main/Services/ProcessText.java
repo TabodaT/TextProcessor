@@ -26,6 +26,28 @@ public class ProcessText {
 //        }
 //        return result;
 //    }
+    public List<String> sumOfNumbers(List<String> someList) {
+        List<String> result = new ArrayList<>();
+        double total = 0;
+        Iterator<String> line = someList.iterator();
+        while (line.hasNext()) {
+            double nr = Double.parseDouble(line.next());
+            total += nr;
+        }
+        result.add(Double.toString(total));
+        return result;
+    }
+    public List<String> formatNumbersForExcel(List<String> someList) {
+        List<String> result = new ArrayList<>();
+        Iterator<String> line = someList.iterator();
+        while (line.hasNext()) {
+            String nr = line.next().replaceAll(" ","")
+                    .replaceAll(" ","")
+                    .replaceAll(",",".");
+            result.add(nr);
+        }
+        return result;
+    }
     public List<String> replaceWithNewRow(List<String> someList, String toBeReplaced) {
         List<String> result = new ArrayList<>();
         Iterator<String> line = someList.iterator();

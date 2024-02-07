@@ -51,6 +51,12 @@ public class Main {
                 case 7:
                     replaceWithNewRow(sc);
                     break;
+                case 8:
+                    formatNumbersForExcel();
+                    break;
+                case 9:
+                    sumOfNumbers();
+                    break;
                 case 99:
                     break;
                 default:
@@ -77,7 +83,21 @@ public class Main {
                         "4  - From create sql script to comments in code for organised code\n" +
                         "5  - abc_abc to abcAbc (snake_case to camelCase)\n" +
                         "6  - append something to \"written_here.txt\"\n" +
-                        "7  - replace char/String with new row");
+                        "7  - replace char/String with new row\n" +
+                        "8  - format numbers for excel: .\n" +
+                        "9  - sum of list of numbers");
+    }
+
+    public static void sumOfNumbers() throws IOException {
+        readAndShowBefore();
+        listOfLines = processText.sumOfNumbers(listOfLines);
+        showAfterAndWrite();
+    }
+
+    public static void formatNumbersForExcel() throws IOException {
+        readAndShowBefore();
+        listOfLines = processText.formatNumbersForExcel(listOfLines);
+        showAfterAndWrite();
     }
 
     public static void replaceWithNewRow(Scanner sc) throws IOException {
