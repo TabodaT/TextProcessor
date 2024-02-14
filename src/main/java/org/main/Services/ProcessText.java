@@ -26,6 +26,30 @@ public class ProcessText {
 //        }
 //        return result;
 //    }
+
+    public List<String> keepRowsThatContain(List<String> someList, String mustContain) {
+        List<String> result = new ArrayList<>();
+        Iterator<String> line = someList.iterator();
+        while (line.hasNext()) {
+            String nextLine = line.next();
+            if (nextLine.contains(mustContain)){
+                result.add(nextLine);
+            }
+        }
+        return result;
+    }
+
+    public List<String> trimAllBeforeString(List<String> someList, String startOfString) {
+        List<String> result = new ArrayList<>();
+        Iterator<String> line = someList.iterator();
+        while (line.hasNext()) {
+            String nextLine = line.next();
+            String trimmedLine = nextLine.substring(nextLine.indexOf(startOfString));
+            result.add(trimmedLine);
+        }
+        return result;
+    }
+
     public List<String> sumOfNumbers(List<String> someList) {
         List<String> result = new ArrayList<>();
         double total = 0;

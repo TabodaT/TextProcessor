@@ -57,6 +57,12 @@ public class Main {
                 case 9:
                     sumOfNumbers();
                     break;
+                case 10:
+                    trimAllBeforeString(sc);
+                    break;
+                case 11:
+                    keepRowsThatContain(sc);
+                    break;
                 case 99:
                     break;
                 default:
@@ -81,11 +87,31 @@ public class Main {
                         "2  - Order alphabetically\n" +
                         "3  - Extract lines that contain, insert:\n" +
                         "4  - From create sql script to comments in code for organised code\n" +
-                        "5  - abc_abc to abcAbc (snake_case to camelCase)\n" +
-                        "6  - append something to \"written_here.txt\"\n" +
-                        "7  - replace char/String with new row\n" +
-                        "8  - format numbers for excel: .\n" +
-                        "9  - sum of list of numbers");
+                        "5  - Transform abc_abc to abcAbc (snake_case to camelCase)\n" +
+                        "6  - Append something to \"written_here.txt\"\n" +
+                        "7  - Replace char/String with new row\n" +
+                        "8  - Format numbers for excel: '.'\n" +
+                        "9  - Sum of list of numbers\n" +
+                        "10 - Trim all before string: \n" +
+                        "11 - Keep only rows that contain:");
+    }
+
+
+
+    private static void keepRowsThatContain(Scanner sc) throws IOException{
+        readAndShowBefore();
+        System.out.println("Insert what should the rows contain:");
+        String opt = sc.nextLine();
+        listOfLines = processText.keepRowsThatContain(listOfLines, opt);
+        showAfterAndWrite();
+    }
+
+    private static void trimAllBeforeString(Scanner sc) throws IOException{
+        readAndShowBefore();
+        System.out.println("Insert text that should be at the beginning:");
+        String opt = sc.nextLine();
+        listOfLines = processText.trimAllBeforeString(listOfLines, opt);
+        showAfterAndWrite();
     }
 
     public static void sumOfNumbers() throws IOException {
