@@ -27,12 +27,25 @@ public class ProcessText {
 //        return result;
 //    }
 
+    public List<String> addInQuotes(List<String> someList) {
+        List<String> result = new ArrayList<>();
+        Iterator<String> line = someList.iterator();
+        while (line.hasNext()) {
+            String lineInQuotes = "\"" + line.next() + "\"";
+            if (line.hasNext()) {
+                lineInQuotes = lineInQuotes + ",";
+            }
+            result.add(lineInQuotes);
+        }
+        return result;
+    }
+
     public List<String> keepRowsThatContain(List<String> someList, String mustContain) {
         List<String> result = new ArrayList<>();
         Iterator<String> line = someList.iterator();
         while (line.hasNext()) {
             String nextLine = line.next();
-            if (nextLine.contains(mustContain)){
+            if (nextLine.contains(mustContain)) {
                 result.add(nextLine);
             }
         }
@@ -44,7 +57,25 @@ public class ProcessText {
         Iterator<String> line = someList.iterator();
         while (line.hasNext()) {
             String nextLine = line.next();
-            String trimmedLine = nextLine.substring(nextLine.indexOf(startOfString));
+            String trimmedLine;
+            if (nextLine.contains(startOfString)){
+                trimmedLine = nextLine.substring(nextLine.indexOf(startOfString));
+            } else continue;
+            result.add(trimmedLine);
+        }
+        return result;
+    }
+
+    public List<String> trimAllAfterString(List<String> someList, String endOfString) {
+        List<String> result = new ArrayList<>();
+        Iterator<String> line = someList.iterator();
+        while (line.hasNext()) {
+            String nextLine = line.next();
+            if (nextLine.isEmpty()) continue;
+            String trimmedLine = nextLine;
+            if (nextLine.contains(endOfString)){
+                trimmedLine = nextLine.substring(0, nextLine.indexOf(endOfString));
+            }
             result.add(trimmedLine);
         }
         return result;
@@ -61,17 +92,19 @@ public class ProcessText {
         result.add(Double.toString(total));
         return result;
     }
+
     public List<String> formatNumbersForExcel(List<String> someList) {
         List<String> result = new ArrayList<>();
         Iterator<String> line = someList.iterator();
         while (line.hasNext()) {
-            String nr = line.next().replaceAll(" ","")
-                    .replaceAll(" ","")
-                    .replaceAll(",",".");
+            String nr = line.next().replaceAll(" ", "")
+                    .replaceAll(" ", "")
+                    .replaceAll(",", ".");
             result.add(nr);
         }
         return result;
     }
+
     public List<String> replaceWithNewRow(List<String> someList, String toBeReplaced) {
         List<String> result = new ArrayList<>();
         Iterator<String> line = someList.iterator();
@@ -87,11 +120,11 @@ public class ProcessText {
         Iterator<String> line = someList.iterator();
         while (line.hasNext()) {
             String[] words = line.next().split("_");
-            if (words.length == 1){
+            if (words.length == 1) {
                 result.add(words[0]);
-            }else {
+            } else {
                 StringBuilder camelCase = new StringBuilder(words[0].toLowerCase());
-                for (int i = 1; i < words.length; i++){
+                for (int i = 1; i < words.length; i++) {
                     camelCase.append(words[i].substring(0, 1).toUpperCase()).append(words[i].substring(1));
                 }
                 result.add(camelCase.toString());

@@ -61,7 +61,13 @@ public class Main {
                     trimAllBeforeString(sc);
                     break;
                 case 11:
+                    trimAllAfterString(sc);
+                    break;
+                case 12:
                     keepRowsThatContain(sc);
+                    break;
+                case 13:
+                    addInQuotes();
                     break;
                 case 99:
                     break;
@@ -93,10 +99,17 @@ public class Main {
                         "8  - Format numbers for excel: '.'\n" +
                         "9  - Sum of list of numbers\n" +
                         "10 - Trim all before string: \n" +
-                        "11 - Keep only rows that contain:");
+                        "11 - Trim all after string: \n" +
+                        "12 - Keep only rows that contain:\n" +
+                        "13 - Add all in \"\" + , except las one");
     }
 
 
+    public static void addInQuotes() throws IOException {
+        readAndShowBefore();
+        listOfLines = processText.addInQuotes(listOfLines);
+        showAfterAndWrite();
+    }
 
     private static void keepRowsThatContain(Scanner sc) throws IOException{
         readAndShowBefore();
@@ -108,9 +121,17 @@ public class Main {
 
     private static void trimAllBeforeString(Scanner sc) throws IOException{
         readAndShowBefore();
-        System.out.println("Insert text that should be at the beginning:");
+        System.out.println("Insert text that should be at the beginning of row:");
         String opt = sc.nextLine();
         listOfLines = processText.trimAllBeforeString(listOfLines, opt);
+        showAfterAndWrite();
+    }
+
+    private static void trimAllAfterString(Scanner sc) throws IOException{
+        readAndShowBefore();
+        System.out.println("Insert text from which the rest should be excluded:");
+        String opt = sc.nextLine();
+        listOfLines = processText.trimAllAfterString(listOfLines, opt);
         showAfterAndWrite();
     }
 
@@ -183,12 +204,9 @@ public class Main {
         System.out.println("After:  " + listOfLines);
         readWriteFile.writeFile(writeTo, listOfLines);
         listOfLines.clear();
-
     }
 
     public static void appendingToExistingFile() throws IOException {
-
         readWriteFile.appendingToExistingFile(writeTo);
-
     }
 }
