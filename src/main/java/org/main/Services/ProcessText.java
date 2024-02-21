@@ -26,6 +26,19 @@ public class ProcessText {
 //        }
 //        return result;
 //    }
+    public List<String> allInOneRow(List<String> someList) {
+        List<String> result = new ArrayList<>();
+        StringBuilder oneRow = new StringBuilder();
+        Iterator<String> line = someList.iterator();
+        while (line.hasNext()) {
+            String nextLine = line.next().trim();
+            oneRow.append(nextLine);
+            if (line.hasNext())
+                oneRow.append(",");
+        }
+        result.add(oneRow.toString());
+        return result;
+    }
 
     public List<String> addInQuotes(List<String> someList) {
         List<String> result = new ArrayList<>();

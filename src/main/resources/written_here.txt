@@ -1,3 +1,1 @@
-https://www.motorcyclespecs.co.za/model/AJP/AJP_PR7.htm
-https://www.motorcyclespecs.co.za/model/AJP/AJP_PR7_adventure_19.html
-https://www.motorcyclespecs.co.za/model/AJP/AJP_PR7.htm
+id,make,model,start_year,end_year,engine,capacity,power,clutch,torque,abs,transmission,final_drive,seat_height,dry_weight,wet_weight,fuel_capacity,reserve,consumption,cooling_system,top_speed,url,image

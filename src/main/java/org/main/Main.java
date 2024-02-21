@@ -69,6 +69,9 @@ public class Main {
                 case 13:
                     addInQuotes();
                     break;
+                case 14:
+                    allInOneRow();
+                    break;
                 case 99:
                     break;
                 default:
@@ -77,7 +80,6 @@ public class Main {
             }
         }
         sc.close();
-
     }
 
     public static void printInstructions() {
@@ -101,10 +103,17 @@ public class Main {
                         "10 - Trim all before string: \n" +
                         "11 - Trim all after string: \n" +
                         "12 - Keep only rows that contain:\n" +
-                        "13 - Add all in \"\" + , except las one");
+                        "13 - Add all in \"\" + , except las one\n" +
+                        "14 - All rows in one line with \",\" between");
     }
 
 
+
+    private static void allInOneRow() throws IOException{
+        readAndShowBefore();
+        listOfLines = processText.allInOneRow(listOfLines);
+        showAfterAndWrite();
+    }
     public static void addInQuotes() throws IOException {
         readAndShowBefore();
         listOfLines = processText.addInQuotes(listOfLines);
